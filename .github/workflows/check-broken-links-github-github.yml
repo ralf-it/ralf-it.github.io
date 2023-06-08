@@ -13,6 +13,7 @@ on:
     branches: [ "gh-pages" ]
   pull_request:
     branches: [ "gh-pages" ]
+    types: [opened, edited]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   
